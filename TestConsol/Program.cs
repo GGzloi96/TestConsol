@@ -1,1 +1,21 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+using System.Numerics;
+
+namespace TestConsol
+{ 
+    public class Programm
+    {
+        public static void Main(string[] args)
+        {
+            int a = 1;
+            int b = 2;
+
+            Console.WriteLine(Plus(a, b));
+        }
+
+        private static int Plus(int a, int b)
+        {
+            return a + b;
+        }
+    }
+}
