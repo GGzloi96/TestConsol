@@ -11,6 +11,7 @@ namespace TestConsol
             int b = 2;
 
             Console.WriteLine(Plus(a, b));
+            Console.WriteLine(Minus(a, b));
         }
 
         private static int Plus(int a, int b)
