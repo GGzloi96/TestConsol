@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace TestConsol
 { 
-    public class Programm
+    public class Program
     {
         public static void Main(string[] args)
         {
