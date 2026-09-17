@@ -8,8 +8,13 @@ namespace TestConsol
             int a = 1;
             int b = 2;
 
-            Console.WriteLine(a + b);
+            Console.WriteLine(Minus(a,b));
 
+        }
+
+        private static int Minus(int x, int y)
+        {
+            return x - y;
         }
     }
    
